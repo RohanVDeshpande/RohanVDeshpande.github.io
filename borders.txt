@@ -1,0 +1,17 @@
+<div id="pagewrap">
+<div id="bodywrapbig">
+	<div id="bodywrapouter">
+		<div id="header">
+			<div id="headercontent"></div>
+		</div>
+		<div id="contentwrapbig">
+			<div id="homebanner"></div>
+			<div id="headerslider"></div>
+			<div id="navigation"></div>
+			<div id="bodytextsmall"></div>
+		</div>
+		<div id="footercontent"></div>
+		<div id="footercontent2"></div>
+	</div>
+</div>
+</div>
