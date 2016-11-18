@@ -1,0 +1,18 @@
+<div class="Material">
+	<h1 class="Projects-Page-Title">Hobbies</h1>
+	<p class="tag">Hover over the images to learn more.</p>
+
+{% for Hobbies in site.categories.hobby %}
+<a href="{{Hobbies.url}}">
+	<div class="projContainer" style="background:url({{Hobbies.imagepath}}) center center;background-size: cover;">
+	  <div class="projInfoContainer">
+	    <h2 class="Project-Title">{{ Hobbies.title }}</h2>
+	    <p class="projSpec">{{ Hobbies.desciption }}</p>
+	  </div>
+	</div>
+</a>
+{% endfor %}
+</div>
+<br style="clear:both;">
+<div class="Spacer"></div>
+</div>

@@ -1,0 +1,18 @@
+<div class="Material">
+	<h1 class="Projects-Page-Title">Projects</h1>
+	<p class="tag">All the following projects have been recognized at International Science, Engineering, or Sustainability compeitions.<br>Hover over the images to learn more.</p>
+
+{% for Projects in site.categories.proj %}
+<a href="{{Projects.url}}">
+	<div class="projContainer" style="background:url({{Projects.imagepath}}) center center;background-size: cover;">
+	  <div class="projInfoContainer">
+	    <h2 class="Project-Title">{{ Projects.title }}</h2>
+	    <p class="projSpec">{{ Projects.desciption }}</p>
+	  </div>
+	</div>
+</a>
+{% endfor %}
+</div>
+<br style="clear:both;">
+<div class="Spacer"></div>
+</div>

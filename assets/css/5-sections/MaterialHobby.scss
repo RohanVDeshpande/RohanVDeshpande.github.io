@@ -1,0 +1,366 @@
+$breakpoint-tablet:800px;
+#slider{
+  width:810px;
+  height:540px;
+  margin-left:auto;
+  margin-right:auto;
+ color:rgb(255,255,255); background:url(/assets/img/lego8.jpg);
+  transition:all 0.3s ease-in;
+  box-shadow:10px 10px 20px rgba(0,0,0,0.75);
+}
+#slider:hover{
+  background-position: right;
+  transition:all .8s ease-in;
+}
+#Caption{
+  width:35%;
+  height:100%;
+  margin-left:auto;
+  background-color:rgba(20,20,200,0);
+
+}
+#slider h2, #SliderText{
+  display:block;
+  color:rgba(255,255,255,0);
+}
+#slider h2{
+  float:right;
+  position:relative;
+  top:40px;
+  left:-50px;
+}
+#SliderText{
+  width:225px;
+  float:right;
+ position:relative;
+  top:50px;
+left:-30px;
+
+    font-size:16px;
+}
+#slider:hover #Caption{
+  background-color:rgba(20,20,200,0.6);
+  transition:all 1s ease-in;
+}
+#slider:hover p{
+  color:rgba(255,255,255,1);
+  transition:all 2.3s ease-in;
+}
+#slider:hover h2{
+  color:rgba(255,255,255,1);
+  transition:all 2.3s ease-in;
+}
+.change{
+width:auto;
+height:100%;
+display:none;
+color:rgb(255,255,255);
+}
+.change h1{
+width:380px;
+height:50px;
+margin-left:auto;
+margin-right:auto;
+}
+.descip{
+width:50%;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+top:50px;
+}
+#Lego1{
+background-image: url(/assets/img/lego1.jpg);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego1:hover .change{
+display:flex;
+background:rgba(19,67,125,.75);
+}
+#Lego2{
+background-image: url(/assets/img/lego2.jpg);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego2:hover .change{
+display:flex;
+background:rgba(19,67,125,.75);
+}
+#Lego3{
+background-image: url(/assets/img/lego3.jpg);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego3:hover .change{
+display:flex;
+background:rgba(142,172,26,.75);
+}
+#Lego4{
+background-image: url(/assets/img/lego4.jpg);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego4:hover .change{
+display:flex;
+background:rgba(206,153,30,.75);
+}
+#Lego5{
+background-image: url(/assets/img/lego5.jpg);
+    width: 810px;
+    height: 312px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    line-height: 80%;
+}
+#Lego5:hover .change{
+display:flex;
+background:rgba(200,100,10,.75);
+font-size: 95%;
+}
+#Lego5 h1{
+       margin-bottom: -40px;
+}
+
+#Lego6{
+background-image: url(/assets/img/lego6.jpg);
+    width: 810px;
+    height: 432px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego6:hover .change{
+display:flex;
+background:rgba(10,100,10,.75);
+}
+#Lego7{
+background-image: url(/assets/img/lego2pic1.png);
+    width: 810px;
+    height: 536px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego7:hover .change{
+display:flex;
+background:rgba(10,160,10,.75);
+}
+#Lego8{
+background-image: url(/assets/img/lego2pic2.png);
+    width: 810px;
+    height: 536px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego8:hover .change{
+display:flex;
+background:rgba(19,67,125,.75);
+}
+#Lego9{
+background-image: url(/assets/img/lego2pic3.png);
+    width: 810px;
+    height: 536px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego9:hover .change{
+display:flex;
+background:rgba(10,130,10,.75);
+}
+#Lego10{
+background-image: url(/assets/img/lego2pic4.png);
+    width: 810px;
+    height: 536px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego10:hover .change{
+display:flex;
+background:rgba(130,16,10,.75);
+}
+#Lego11{
+background-image: url(/assets/img/lego2pic5.png);
+    width: 810px;
+    height: 536px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego11:hover .change{
+display:flex;
+background:rgba(206,153,30,.75);
+}
+
+audio{
+       display: block;
+       width: 75%;
+       margin-left: auto;
+       margin-right: auto;
+}
+.SongTitle{
+       text-align: center;
+       text-indent: 0px;
+       font-size: 120%;
+       margin-bottom: -3px;
+}
+.HobbyTitle{
+       text-align:center;
+}
+#Origami2 .change h1
+{
+height:80px;
+}
+.change h1{
+width:380px;
+height:50px;
+margin-left:auto;
+margin-right:auto;
+}
+.descip{
+width:50%;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+top:50px;
+}
+
+#Origami1{
+background-image: url(/assets/img/Origami1.png);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#Origami1:hover .change{
+display:flex;
+background:rgba(115,30,30,.75);
+}
+#Origami2{
+background-image: url(/assets/img/Origami2.png);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#Origami2:hover .change{
+display:flex;
+background:rgba(24,83,112,.75);
+}
+#Origami3{
+background-image: url(/assets/img/Origami3.png);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#Origami3:hover .change{
+display:flex;
+background:rgba(60,55,66,.75);
+}
+#Origami4{
+background-image: url(/assets/img/Origami4.png);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#Origami4:hover .change{
+display:flex;
+background:rgba(130,117,2,.62);
+}
+#Origami5{
+background-image: url(/assets/img/Origami5.png);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#Origami5:hover .change{
+display:flex;
+background:rgba(29,80,59,.75);
+}
+#Origami6{
+background-image: url(/assets/img/Origami6.png);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#Origami6:hover .change{
+display:flex;
+background:rgba(151,53,20,.75);
+}
+
+#Technology{
+       img{
+              display:block;
+              margin-left: auto;
+              margin-right: auto;
+       }
+       h2{
+              text-align: left;
+              font-size: xx-large;
+       }
+       #C1, #C2, #C3, C4{
+                  border-bottom: solid grey;
+       }
+
+}
+#DrawingPint{
+       img{
+              display:block;
+              margin-left: auto;
+              margin-right: auto;
+       }
+}
+#TKD{
+       img{
+              display:block;
+              margin-left: auto;
+              margin-right: auto;
+       }
+}
