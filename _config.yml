@@ -5,7 +5,7 @@ quote: 'To invent, you need a good imagination and a pile of junk. -Thomas A. Ed
 footertext: 'This website was created by <strong>Rohan Deshpande</strong> from scratch. The website was made with over <strong>1,500 lines</strong> of HTML code and <strong>18,900</strong> of CSS code!'
 
 markdown: kramdown
-baseurl: 
+baseurl:
 
 sass:
   sass_dir: assets/css
