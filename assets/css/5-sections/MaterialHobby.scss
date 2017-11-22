@@ -223,6 +223,22 @@ display:flex;
 background:rgba(206,153,30,.75);
 }
 
+#Lego12{
+background-image: url(/assets/img/GanpatiLego.png);
+    background-size: 810px 500px;
+    width: 810px;
+    height: 500px;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#Lego12:hover .change{
+display:flex;
+background:rgba(206,153,30,.75);
+}
+
+
 audio{
        display: block;
        width: 75%;
