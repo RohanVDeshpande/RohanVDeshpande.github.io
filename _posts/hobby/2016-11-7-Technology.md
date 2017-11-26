@@ -2,7 +2,7 @@
 layout: ProjectTemp
 title: Technology
 imagepath: "/assets/img/technology/Circuitsicon.jpg"
-headerimg: "/assets/img/TrashTerminators2Icon.JPG"
+headerimg: "/assets/img/bgelectronics.png"
 desciption: I have been interested in technology for a long time. Since the age of 6 I have been really in circuit design. I have also done work in 3d printing and web design.
 category: hobby
 ---
