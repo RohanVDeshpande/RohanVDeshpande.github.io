@@ -8,6 +8,11 @@ category: hobby
 ---
 <h1 class="HobbyTitle">Bass</h1>
 I started playing the upright bass when I was in 4th grade. I have played Bass in school Orchestra from 4th to 8th grade and at Duke String School Orchestra since 6th grade. I currently play in Youth Symphony Orchestra at DUSS. I also have participated in UNC Summer Jazz camp in 2014 and 2015, and have participated in UNC Greensboro music camp in summer 2013. I was selected to play Bass at the Junior Eastern Regional Orchestra organized by NC Music Educators Association in 7th and 8th grades.
+
+### DUSS Youth Symphony 50th Anniversary Concert: Nov 12, 2017
+<div class="VideoContainer"><iframe src="https://www.youtube.com/embed/NbFveHUyjwE" frameborder="0" allowfullscreen=""></iframe></div>
+
+
 ### DUSS Youth Symphony: Nov 13, 2016
 <div class="VideoContainer"><iframe src="https://www.youtube.com/embed/1gpoWvx0LOo" frameborder="0" allowfullscreen=""></iframe></div>
 ### DUSS Youth Symphony: Oct 11, 2014
