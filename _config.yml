@@ -10,7 +10,7 @@ markdown: kramdown
 baseurl:
 
 sass:
-  sass_dir: assets/css
+  sass_dir: _sass
   style: :compressed
 
 gems:
