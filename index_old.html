@@ -1,0 +1,48 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{site.title}}</title>
+	<meta charset="UTF-8">
+	<link rel = "stylesheet" href= "assets/css/main.css">
+	<link rel="shortcut icon" href="image/tabicon.png">
+	<link rel="stylesheet" href="/assets/css/3-modules/jquery.fadeshow-0.1.1.min.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110103138-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-110103138-1');
+	</script>
+	{% seo %}
+</head>
+<body>
+<div class="ContentArea">
+	{% include indexheader.html %}
+
+		<div class="Material">
+			<h2>{{site.title}}</h2>
+			<h3>About Me</h3>
+			<p>Rohan Kalvade is a Senior at East Chapel Hill High School, North Carolina. He has participated in Science, Business, and Eco competitions since sixth grade and has received national and international recognition in several of them. Over the course of the last four years, he has developed an autonomous aerial medical response system, invented an automatic IOT enabled lightswitch for electricity savings, and implemented a cafeteria composting and recycling initiative which saves 80% of cafeteria waste (see projects tab for full descriptions). In 2016, after presenting his project at NASA in front of a panel of judges during the Conrad Spirit of Innovation Competition, he received the 2016 Conrad first place Power Pitch award in the Energy/Environment Category. He was also one of four students chosen to represent the United States at the Beijing Youth Science Creation Competition (BYSCC), where he won a gold medal in the engineering/technology category. In both his freshman and sophomore years, he was honored as an INTEL International Science and Engineering Fair (ISEF) finalist. In 2015, he was selected as a Google Science Fair regional finalist. His engineering project was one of 45 projects and the only one from NC chosen by Google as “ideas that will change the world”. See awards section for full list of awards.</p>
+			<p>His idols are Bill Gates, for his philanthropic work with the Gates foundation to make this world a better place, and Elon Musk, for his pursuit of innovative new technologies in the domain of sustainable energy.In the future, he plans to pursue a career in engineering/technology and entrepreneurship with a focus on developing innovative solutions for solving world’s pressing problems such as sustainable energy.</p>
+		</div>
+	</div>
+	{% include indexfooter.html %}
+	<script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.fadeshow-0.1.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(function(){
+		var fadeShow = $(".banner").fadeShow({
+			correctRatio: true,
+			shuffle: true,
+			speed: 2000,
+			images: ['/assets/img/BannerPhoto3_2.png', '/assets/img/BannerPhoto3_3.png','/assets/img/BannerPhoto3_4.png', '/assets/img/BannerPhoto3_5.png','/assets/img/BannerPhoto3_6.png']
+		});
+	});
+	</script>
+</body>
+</html>
