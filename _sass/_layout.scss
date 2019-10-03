@@ -12,17 +12,14 @@
 }
 
 .profile-pic{
-	background-image: url('../assets/img/pfp.jpg');
 	width: 175px;
     height: 175px;
     margin: 0 auto;
+    display: block;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
